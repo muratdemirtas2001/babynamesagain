@@ -1,6 +1,7 @@
 import LogoutButton from "./LogOutButton";
 import LoginButton from "./LoginBotton";
 import { useAuth0 } from "@auth0/auth0-react";
+import Profile from "./Profile";
 
 const Homepage = () => {
   console.log("HELLO FROM HOMEPAGE");
@@ -11,10 +12,13 @@ const Homepage = () => {
     <>
       {user && (
         <>
-          <LoginButton />
-          <LogoutButton />{" "}
+          <Profile />
         </>
       )}
+      <>
+        <LoginButton />
+        <LogoutButton />{" "}
+      </>
       <div>Welcometo the home page</div>
     </>
   );
