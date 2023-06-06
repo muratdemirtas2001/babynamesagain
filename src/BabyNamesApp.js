@@ -96,7 +96,6 @@ function BabyNamesApp() {
     setNoneFavoriteNames(girlNames);
     setGenderPictureClass([false, false, true]);
   }
-  let isSignedIn = true;
   return (
     <div>
        <div className="app-wrapper">

@@ -4,7 +4,6 @@ function SingleBabyCard({
   // moveToFavorite,
   // moveFromFavorite,
   moveName,
-  isClickingFavoriteNames,
 }) {
   return (
     <>

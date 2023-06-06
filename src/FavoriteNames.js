@@ -30,6 +30,7 @@ function FavoriteNames({
         <hr style={{ width: "300px" }} />
       </div>
     );
+  // eslint-disable-next-line curly
   } else return null;
 }
 
